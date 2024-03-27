@@ -1,0 +1,522 @@
+@media only screen and (min-width: 320px) and (max-width: 1200px) {
+  #bg-design,
+  #sec4-design {
+    display: none;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  body{
+    overflow-x: hidden;
+
+  }
+  #sec1-bg {
+    height: 300px;
+  }
+  #content {
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+  #top {
+    width: auto;
+    padding: 0.5rem 0;
+    margin: 0;
+    gap: 5rem;
+    justify-content: space-evenly;
+    position: relative;
+    transform: initial;
+  }
+  #menu-icon {
+    display: block;
+  }
+  #top nav {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0.5rem 0;
+    transform: translateY(-200%);
+    z-index: 99;
+    border-radius: 10px;
+  }
+  #top nav ul {
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+  #top nav ul li a {
+    font-size: 12px;
+    line-height: 0;
+  }
+  #logo-img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+  }
+  #middle {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 0.3rem;
+    padding: 0;
+    margin: 0;
+    transform: translate(20%, -50%);
+  }
+  #bottom {
+    padding: 0;
+    margin: 0;
+    gap: 0.5rem;
+    transform: translate(80%, -40%);
+  }
+  #p1 {
+    font-size: 12px;
+    line-height: 1rem;
+    color: #003737;
+  }
+  #p2 {
+    font-size: 12px;
+    line-height: 1rem;
+  }
+  #bottom p {
+    font-size: 12px;
+    line-height: 1rem;
+  }
+  #bottom button a {
+    font-size: 12px;
+    line-height: 0;
+  }
+  #bottom button {
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0.3rem;
+  }
+  #sec-2 {
+    padding: 0;
+  }
+  #sec2-content {
+    width: auto;
+    padding: 2rem 0;
+    gap: 1rem;
+    align-items: center;
+    transform: translateX(48%);
+  }
+  #sec2-heading {
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    line-height: 1rem;
+  }
+  #sec2-mesaage {
+    width: auto;
+    padding: 0;
+    margin: 0;
+    gap: 1rem;
+  }
+  #sec2-mesaage p {
+    font-size: 10px;
+    line-height: 1rem;
+  }
+  #sec2-mesaage button {
+    width: auto;
+    height: auto;
+    padding: 0.5rem;
+  }
+  #sec2-mesaage button a {
+    font-size: 10px;
+    line-height: 0;
+  }
+  #chef-img {
+    width: auto;
+    height: 150px;
+    object-fit: cover;
+    z-index: -99;
+  }
+  #sec3-content {
+    height: auto;
+    padding: 1.5rem 0;
+    gap: 1rem;
+  }
+  #sec3-heading {
+    gap: 0.5rem;
+  }
+  #heading-p1 {
+    font-size: 22px;
+    line-height: initial;
+  }
+  #tagline {
+    font-size: 20px;
+    line-height: initial;
+  }
+  #recipes {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  #recipes .recipe {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+  #recipes .recipe .recipe-desc {
+    gap: 0.5rem;
+  }
+  #recipes .recipe .recipe-desc .recipe-name {
+    font-size: 12px;
+    line-height: initial;
+  }
+  #recipes .recipe .recipe-desc .recipe-info {
+    font-size: 10px;
+    line-height: initial;
+  }
+  #recipes .recipe-img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+  }
+  #recipes .recipe a {
+    display: none;
+  }
+  #sec4-content {
+    margin-top: 0rem;
+    padding: 0;
+    gap: 0.5rem;
+  }
+  #sec4-top img {
+    height: 150px;
+  }
+  #top-content {
+    gap: 0.5rem;
+  }
+  #top-p0 {
+    font-size: 18px;
+    line-height: initial;
+  }
+  #top-p1 {
+    font-size: 11px;
+    line-height: initial;
+  }
+  #menu {
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(7%);
+  }
+  #menu-heading {
+    font-size: 22px;
+    line-height: initial;
+    padding: 0;
+    margin: 0;
+  }
+  #menu-tagline {
+    font-size: 20px;
+    line-height: initial;
+  }
+  #menu-card {
+    flex-direction: column;
+    gap: 1rem;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+  }
+  #book-btn {
+    width: auto;
+    height: auto;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    line-height: initial;
+  }
+  #list-1 {
+    transform: initial;
+  }
+  #list-2 {
+    transform: initial;
+  }
+  #list-2-text {
+    align-items: center;
+  }
+  #list-1-text {
+    align-items: center;
+  }
+  #menu-card .divide {
+    width: 50%;
+    height: 1px;
+  }
+  #menu-card .items {
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+  #menu-card .items .item .item-text .dish-info {
+    font-size: 12px;
+  }
+  #menu-card .items .item .item-text .dish-desc {
+    font-size: 12px;
+  }
+  .dish-line-1 {
+    width: 42px;
+  }
+  .dish-line-2 {
+    width: 30px;
+  }
+  .dish-line-3 {
+    width: 60px;
+  }
+  .dish-line-4 {
+    width: 20px;
+  }
+  .item-img img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+  }
+  #sec5 {
+    margin-top: 3.5rem;
+    gap: 2rem;
+    height: auto;
+    padding: 2rem 0;
+  }
+  #sec5-heading {
+    gap: 0.5rem;
+  }
+  #cook-heading {
+    font-size: 20px;
+    line-height: initial;
+  }
+  #cook-tagline {
+    font-size: 16px;
+    line-height: initial;
+  }
+  #chefs {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .chef {
+    flex-direction: row;
+    gap: 1rem;
+  }
+  .chef-name {
+    font-size: 16px;
+    line-height: initial;
+  }
+  .chef-post {
+    font-size: 14px;
+    line-height: initial;
+  }
+  .chef-img {
+    width: auto;
+    height: 120px;
+    object-fit: cover;
+  }
+  #sec6 {
+    padding: 0;
+    margin: 2rem 0;
+    height: auto;
+    gap: 2rem;
+  }
+  #sec6-headings {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  #heading1 {
+    font-size: 20px;
+    line-height: initial;
+  }
+  #heading2 {
+    font-size: 16px;
+    line-height: initial;
+  }
+  #sec6-content {
+    gap: 1rem;
+    flex-direction: column;
+  }
+  #sec6-para {
+    font-size: 15px;
+    line-height: initial;
+  }
+  #sec6-content form {
+    gap: 1.5rem;
+  }
+  .form-row {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .input-box select,
+  input {
+    width: 170px;
+    height: 40px;
+  }
+  .input-box label {
+    font-size: 12px;
+  }
+  .form-row button {
+    width: auto;
+    height: auto;
+    padding: 0.5rem;
+    margin: 0;
+    font-size: 14px;
+  }
+  .input-box input::-webkit-calendar-picker-indicator {
+    width: 12px;
+    height: 12px;
+  }
+  #sec7 {
+    height: auto;
+    padding: 2rem 0;
+    align-items: center;
+    justify-content: center;
+  }
+  #sec7-text {
+    padding: 0;
+    gap: 0.3rem;
+    align-items: end;
+    justify-content: center;
+  }
+  #text1 {
+    font-size: 14px;
+    line-height: initial;
+    text-align: end;
+  }
+  #text2 {
+    font-size: 10px;
+    line-height: initial;
+    text-align: end;
+  }
+  #sec7-img-1 {
+    width: 150px;
+    height: 150px;
+    left: 0%;
+    transform: translate(-18%, 8%);
+  }
+  #sec7-img-2 {
+    width: 100px;
+    height: 120px;
+    object-fit: cover;
+    right: 10%;
+    transform: translate(30%, -30%);
+  }
+  #sec7-strip1 {
+    display: none;
+  }
+  #sec7-strip2 {
+    display: none;
+  }
+  #sec8 {
+    padding: 2rem 0;
+    height: auto;
+    gap: 2rem;
+  }
+  #sec8-heading {
+    font-size: 20px;
+  }
+  #news {
+    flex-direction: column;
+    height: auto;
+    gap: 2rem;
+  }
+  .news-content {
+    flex-direction: row;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: start;
+  }
+  .news-title {
+    font-size: 14px;
+    line-height: initial;
+  }
+  .news-desc {
+    font-size: 10px;
+    line-height: initial;
+  }
+  .news-stats {
+    font-size: 10px;
+    line-height: initial;
+  }
+  .news-img {
+    width: 110px;
+    height: 110px;
+    object-fit: cover;
+  }
+  .news-text {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+  footer {
+    height: auto;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem 0;
+  }
+  #footer-logo {
+    width: auto;
+    height: 80px;
+    object-fit: cover;
+  }
+  #brand-info {
+    align-items: center;
+  }
+  #brand-slogan {
+    font-size: 20px;
+    line-height: initial;
+    text-align: center;
+  }
+  #brand-message {
+    font-size: 14px;
+    text-align: center;
+    line-height: initial;
+  }
+  #explore {
+    align-items: center;
+  }
+  #xplore {
+    font-size: 22px;
+    gap: 0rem;
+  }
+  #explore ul {
+    align-items: center;
+  }
+  #explore ul li a {
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: initial;
+  }
+  #address {
+    height: auto;
+    padding: 1rem 0;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+  #address-slogan {
+    font-size: 22px;
+  }
+  #address-info {
+    font-size: 16px;
+    text-align: center;
+    line-height: initial;
+  }
+  #address ul {
+    margin-top: 0.8rem;
+    gap: 0.5rem;
+  }
+  #address ul li {
+    width: 30px;
+    height: 30px;
+  }
+  #address ul li a {
+    font-size: 14px;
+  }
+}

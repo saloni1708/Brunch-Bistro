@@ -1,0 +1,1018 @@
+@font-face {
+  font-family: "BioRhyme Expanded";
+  src: url("./fonts/BioRhymeExpanded-Regular.woff");
+}
+
+@font-face {
+  font-family: "BioRhyme";
+  src: url("./fonts/BioRhyme-Regular.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  transition: all 0.3s ease-in-out;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  background-color: #003737;
+}
+
+body::-webkit-scrollbar {
+  width: 5px;
+  border-radius: 5px;
+  transition: all 0.3s;
+  background: #003737;
+}
+
+body::-webkit-scrollbar-track {
+  background: #003737;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #ccab79;
+  border-radius: 5px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: #b28e5c;
+}
+
+main {
+  width: 100%;
+}
+#sec-1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+#sec1-bg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: relative;
+}
+#content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: start;
+  position: absolute;
+  height: 100%;
+  gap: 5rem;
+}
+#top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  transform: translate(-30%,50%);
+}
+#menu-icon {
+  display: none;
+}
+#top nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  list-style: none;
+}
+#top nav ul li a {
+  font-size: 23px;
+  line-height: 75px;
+  text-transform: uppercase;
+  color: #003a3a;
+  font-weight: 700;
+  font-family: "Roboto Condensed";
+  text-decoration: none;
+}
+#p1 {
+  font-size: 58px;
+  line-height: 62px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 800;
+  font-family: "BioRhyme Expanded";
+}
+#bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+  transform: translate(-170%,50%);
+}
+#bottom p {
+  font-size: 33px;
+  line-height: 42px;
+  color: #003a3a;
+  font-weight: 900;
+  font-family: "BioRhyme";
+}
+#bottom button a {
+  font-size: 29px;
+  letter-spacing: 3px;
+  line-height: 42px;
+  color: #f5c4c3;
+  font-weight: 300;
+  font-family: "Roboto";
+  text-align: center;
+  text-decoration: none;
+}
+#bottom button {
+  width: 243px;
+  height: 90px;
+  background-color: #003a3a;
+  margin-right: 2rem;
+}
+#p2 {
+  color: #003737;
+  font-size: 58px;
+  line-height: 62px;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-family: "BioRhyme Expanded";
+}
+
+#middle {
+  transform: translate(-30%,50%);
+}
+
+#sec-2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding-bottom: 5rem;
+}
+
+#bg-design {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  z-index: -99;
+}
+
+#bg-design img {
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+  z-index: -999;
+}
+
+#strip-bottom {
+  transform: translateY(95%);
+}
+
+#strip-top {
+  right: 0%;
+  transform: translateY(-40%);
+}
+
+#sec2-content {
+  width: 100%;
+  height: auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: center;
+  gap: 8rem;
+}
+
+#chef-img {
+  width: 50%;
+  object-fit: cover;
+  position: absolute;
+  transform: translate(-40%, 7%);
+}
+
+#sec2-heading {
+  font-size: 42px;
+  line-height: 46px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "BioRhyme Expanded";
+  padding-top: 10rem;
+  padding-right: 21rem;
+}
+
+#sec2-mesaage {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 3rem;
+  padding-right: 21rem;
+}
+
+#sec2-mesaage p {
+  font-size: 31px;
+  line-height: 42px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Roboto";
+}
+#sec2-mesaage button {
+  width: 201px;
+  height: 72px;
+  background-color: transparent;
+  border: 1px solid #f5c4c3;
+}
+
+#sec2-mesaage button a {
+  font-size: 21px;
+  line-height: 75px;
+  text-transform: uppercase;
+  color: #fffffe;
+  font-weight: 900;
+  font-family: "Roboto";
+  text-align: center;
+  text-decoration: none;
+}
+
+#sec3 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+#sec3-content {
+  width: 100%;
+  height: 1067px;
+  background-color: #ffc5c4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#sec3-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+#heading-p1 {
+  font-size: 42px;
+  line-height: 46px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "BioRhyme Expanded";
+  text-align: center;
+}
+
+#tagline {
+  font-size: 33px;
+  line-height: 42px;
+  color: #003a3a;
+  font-weight: 400;
+  font-family: "Roboto";
+  text-align: center;
+}
+
+#recipes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+#recipes .recipe {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 2rem;
+}
+
+#recipes .recipe .recipe-desc {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+#recipes .recipe .recipe-desc .recipe-name {
+  font-size: 29px;
+  line-height: 46px;
+  color: #003a3a;
+  font-weight: bolder;
+  font-family: "BioRhyme";
+}
+
+#recipes .recipe .recipe-desc .recipe-info {
+  font-size: 25px;
+  line-height: 33px;
+  color: #000000;
+  font-weight: 400;
+  font-family: "Roboto";
+}
+
+#recipes .recipe a {
+  font-size: 21px;
+  line-height: 46px;
+  text-decoration: underline;
+  color: #003a3a;
+  font-weight: 800;
+  font-family: "BioRhyme";
+}
+
+#sec4 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-top: 5rem;
+}
+
+#sec4-design {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: relative;
+  display: flex;
+  position: absolute;
+  z-index: -99;
+}
+
+#sec4-design img {
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+
+#sec4-content {
+  margin-top: 17rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  position: relative;
+}
+
+#sec4-top {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+#sec4-top img {
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+
+#top-content {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+#top-p0 {
+  font-size: 42px;
+  line-height: 46px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "BioRhyme Expanded";
+  text-align: center;
+  filter: drop-shadow(0px 3px 50.5px rgba(0, 0, 0, 0.35));
+}
+
+#top-p1 {
+  font-size: 33px;
+  line-height: 42px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Roboto";
+  text-align: center;
+  filter: drop-shadow(0px 3px 50px rgba(0, 0, 0, 0.35));
+}
+
+#menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 1176px;
+  height: 934px;
+  background-color: #f5c4c3;
+  transform: translateY(10%);
+  padding: 2rem 0;
+}
+
+#menu-heading {
+  font-size: 42px;
+  color: #003a3a;
+  font-weight: 400;
+  font-family: "BioRhyme Expanded";
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 4rem;
+}
+
+#menu-tagline {
+  font-size: 25px;
+  line-height: 33px;
+  color: #000000;
+  font-weight: 400;
+  font-family: "Roboto";
+  text-align: center;
+}
+
+#book-btn {
+  width: 201px;
+  height: 72px;
+  background-color: #003a3a;
+  font-size: 21px;
+  line-height: 75px;
+  text-transform: uppercase;
+  color: #fffffe;
+  font-weight: 900;
+  font-family: "Roboto";
+  text-align: center;
+  cursor: pointer;
+}
+
+#menu-card {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 661px;
+}
+
+#list-1 {
+  transform: translateX(-15%);
+}
+
+#list-2 {
+  transform: translateX(15%);
+}
+
+#list-2-text {
+  align-items: end;
+}
+
+#list-1-text {
+  align-items: start;
+}
+
+#menu-bottom {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+#menu-card .divide {
+  width: 1px;
+  height: 496px;
+  background-color: #003a3a;
+  border: 1px solid #003a3a;
+}
+
+#menu-card .items {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#menu-card .items .item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+}
+
+#menu-card .items .item .item-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#menu-card .items .item .item-text .dish-info {
+  font-size: 22px;
+  color: #003a3a;
+  font-weight: 800;
+  font-family: "BioRhyme";
+}
+
+#menu-card .items .item .item-text .dish-desc {
+  font-size: 18px;
+  color: #003a3a;
+  font-weight: 600;
+  font-family: "BioRhyme";
+}
+
+.dish {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.dish-line {
+  height: 1px;
+  background-color: #003a3a;
+  margin-bottom: 0.6rem;
+}
+
+.dish-line-1 {
+  width: 136px;
+}
+.dish-line-2 {
+  width: 104px;
+}
+.dish-line-3 {
+  width: 190px;
+}
+.dish-line-4 {
+  width: 88px;
+}
+
+#sec4-strip1 {
+  box-sizing: 0;
+  transform: translateY(88%);
+}
+
+#sec4-strip2 {
+  bottom: 0;
+  transform: translateY(-35%);
+}
+
+#sec5 {
+  margin-top: 5.8rem;
+  width: 100%;
+  background-color: #f6f3f3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  padding: 5rem 0;
+}
+
+#sec5-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+#cook-heading {
+  font-size: 42px;
+  line-height: 46px;
+  text-transform: uppercase;
+  color: #f5c4c3;
+  font-weight: 700;
+  font-family: "BioRhyme Expanded";
+  text-align: center;
+}
+
+#cook-tagline {
+  font-size: 33px;
+  line-height: 42px;
+  color: #003a3a;
+  font-weight: 400;
+  font-family: "Roboto";
+  text-align: center;
+}
+
+#chefs {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.chef {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.chef-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.chef-name {
+  font-size: 29px;
+  line-height: 42px;
+  text-transform: uppercase;
+  color: #003a3a;
+  font-weight: 700;
+  font-family: "BioRhyme";
+  text-align: center;
+}
+
+.chef-post {
+  font-size: 25px;
+  line-height: 42px;
+  color: #484848;
+  font-weight: 400;
+  font-family: "Roboto";
+  text-align: center;
+}
+
+#sec6 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6rem;
+  padding-top: 8rem;
+  padding-bottom: 12rem;
+}
+
+#sec6-headings {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#heading1 {
+  font-size: 42px;
+  line-height: 75px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "BioRhyme Expanded";
+  text-align: center;
+}
+
+#heading2 {
+  font-size: 33px;
+  line-height: 42px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Roboto";
+  text-align: center;
+}
+
+#sec6-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8rem;
+}
+
+#sec6-para {
+  font-size: 29px;
+  line-height: 42px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Roboto";
+}
+
+#sec6-content form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.form-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.input-box {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+
+.input-box select,
+input {
+  width: 201px;
+  height: 50px;
+  background-color: #ffffff;
+  padding-left: 0.5rem;
+}
+
+.input-box label {
+  font-size: 17px;
+  color: #ffffff;
+  font-weight: 900;
+  font-family: "Roboto";
+}
+
+.form-row button {
+  width: 201px;
+  height: 50px;
+  background-color: #f5c4c3;
+  margin-top: 1.2rem;
+  font-size: 21px;
+  text-transform: uppercase;
+  color: #003a3a;
+  font-weight: 700;
+  font-family: "Roboto";
+  text-align: center;
+}
+
+.input-box input::-webkit-calendar-picker-indicator {
+  width: 20px;
+  height: 20px;
+  border-left: #000 solid 2px;
+  margin-right: 0.3rem;
+  padding-left: 0.5rem;
+}
+
+#sec7 {
+  width: 100%;
+  height: 668px;
+  background-color: #f5c4c3;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: end;
+  position: relative;
+}
+
+#sec7 img {
+  position: absolute;
+  z-index: 0;
+}
+
+#sec7-img-1 {
+  filter: drop-shadow(51.926px 48.422px 62.5px rgba(0, 0, 0, 0.42));
+  top: 0%;
+  left: 0%;
+  transform: translate(-14%, -18%);
+}
+
+#sec7-img-2 {
+  filter: drop-shadow(51.926px 48.422px 62.5px rgba(0, 0, 0, 0.42));
+  top: 0%;
+  right: 0%;
+  transform: translate(0%, -33%);
+}
+
+#sec7-strip1 {
+  top: 0%;
+  left: 0%;
+  transform: translate(0%, -15%);
+}
+
+#sec7-strip2 {
+  top: 0%;
+  left: 0%;
+  transform: translate(0%, -60%);
+}
+
+#sec7-text {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: center;
+  gap: 1rem;
+  padding: 0 10rem 3.5rem 0;
+}
+
+#text1 {
+  font-size: 50px;
+  line-height: 54px;
+  text-transform: uppercase;
+  color: #003a3a;
+  font-weight: 700;
+  font-family: "BioRhyme Expanded";
+  text-align: right;
+}
+
+#text2 {
+  font-size: 29px;
+  line-height: 38px;
+  color: #555555;
+  font-weight: 400;
+  font-family: "Roboto";
+  text-align: right;
+}
+
+#sec8 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 8rem 0 5rem 0;
+  gap: 4rem;
+}
+
+#sec8-heading {
+  font-size: 42px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "BioRhyme Expanded";
+  text-align: center;
+}
+#news {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 2rem;
+}
+
+.news-content {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 0.8rem;
+}
+
+.news-title {
+  font-size: 29px;
+  line-height: 33px;
+  color: #f5c4c3;
+  font-weight: 700;
+  font-family: "BioRhyme";
+}
+
+.news-desc {
+  font-size: 25px;
+  line-height: 35px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Roboto";
+}
+
+.news-stats {
+  font-size: 19px;
+  line-height: 35px;
+  color: #f5c4c3;
+  font-weight: 400;
+  font-family: "Roboto";
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #fff;
+  padding: 2rem 8rem;
+}
+
+#brand-info {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 1rem;
+}
+
+#brand-slogan {
+  font-size: 29px;
+  line-height: 33px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "BioRhyme Expanded";
+}
+
+#brand-message {
+  font-size: 21px;
+  line-height: 27px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Roboto";
+}
+
+#explore {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+#xplore {
+  font-size: 33px;
+  text-transform: uppercase;
+  color: #f5c4c3;
+  font-weight: 700;
+  font-family: "BioRhyme";
+}
+
+#explore ul {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  list-style: none;
+}
+
+#explore ul li a {
+  font-size: 21px;
+  letter-spacing: 0px;
+  line-height: 37px;
+  color: #ffffff;
+  font-weight: 900;
+  font-family: "Roboto";
+  text-decoration: none;
+}
+
+#address {
+  height: 296.4px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  gap: 2rem;
+}
+
+#address-slogan {
+  font-size: 33px;
+  text-transform: uppercase;
+  color: #f5c4c3;
+  font-weight: 700;
+  font-family: "BioRhyme";
+}
+
+#address-info {
+  font-size: 21px;
+  letter-spacing: 0px;
+  line-height: 35px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Roboto";
+}
+
+#address ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  list-style: none;
+}
+
+#address ul li {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+#address ul li a {
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+}
